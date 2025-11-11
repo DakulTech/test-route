@@ -7,4 +7,8 @@ router.post("/login", (req, res) => {
   res.json({ message: "Login route reached" });
 });
 
+router.get("/test", (req, res) => {
+  res.json({ message: "GET /auth/test works" });
+});
+
 export default router;
